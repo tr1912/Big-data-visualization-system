@@ -66,6 +66,6 @@
       <property name="supportedMediaTypes" value = "text/plain;charset=UTF-8" />
     </bean>
    </mvc:message-converters>
-     </mvc:annotation-driven4>
+     </mvc:annotation-driven>
 
 </beans>
