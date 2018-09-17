@@ -60,12 +60,12 @@
     当设置多个拦截器时，先按顺序调用preHandle方法，然后逆序调用每个拦截器的postHandle和afterCompletion方法  
     </mvc:interceptors>  -->
     
-    <mvc:annotation-driven1>
+    <mvc:annotation-driven4>
      <mvc:message-converters register-defaults="true">
     <bean class="org.springframework.http.converter.StringHttpMessageConverter">
       <property name="supportedMediaTypes" value = "text/plain;charset=UTF-8" />
     </bean>
    </mvc:message-converters>
-     </mvc:annotation-driven1>
+     </mvc:annotation-driven4>
 
 </beans>
